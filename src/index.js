@@ -19,6 +19,10 @@ function createBtn() {
 
 function executeBtn(i) {
   switch (i) {
+    case 1:
+      display.textContent = "";
+      break;
+
     case 3:
       display.textContent = display.textContent.substring(0, display.textContent.length - 1);
       break;
