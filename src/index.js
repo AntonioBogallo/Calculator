@@ -89,12 +89,12 @@ function executeBtn(i) {
   }
 }
 
-function takeSubstr(symbol) {
-  const arrayNumbers = [];
-  arrayNumbers[0] = display.textContent.substring(0, display.textContent.search(symbol));
-  arrayNumbers[1] = display.textContent.substring(display.textContent.search(symbol) + 1);
-  return arrayNumbers;
-}
+// function takeSubstr(symbol) {
+//   const arrayNumbers = [];
+//   arrayNumbers[0] = display.textContent.substring(0, display.textContent.search(symbol));
+//   arrayNumbers[1] = display.textContent.substring(display.textContent.search(symbol) + 1);
+//   return arrayNumbers;
+// }
 
 function equal() {
   const array = ["+", "-", "X", "/"];
